@@ -8,6 +8,49 @@
 </head>
 <body>
 
+<div class="navbar navbar-inverse navbar-fixed-top" >
+  <div class="navbar-inner" style="background-image: linear-gradient(bottom, rgb(168,47,168) 38%, rgb(144,12,156) 69%);
+          background-image: -o-linear-gradient(bottom, rgb(168,47,168) 38%, rgb(144,12,156) 69%);
+          background-image: -moz-linear-gradient(bottom, rgb(168,47,168) 38%, rgb(144,12,156) 69%);
+          background-image: -webkit-linear-gradient(bottom, rgb(168,47,168) 38%, rgb(144,12,156) 69%);
+          background-image: -ms-linear-gradient(bottom, rgb(168,47,168) 38%, rgb(144,12,156) 69%);
+
+          background-image: -webkit-gradient(
+                  linear,
+                          left bottom,
+                          left top,
+                          color-stop(0.38, rgb(168,47,168)),
+                          color-stop(0.69, rgb(144,12,156))
+                  );">
+    <div class="container">
+      <div class="nav-collapse collapse">
+        <a class="brand" href="#">Welcome</a>
+        <ul class="nav">
+          <li><a href="#" rel="popover" data-content="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua." data-original-title="TITLE OK" data-placement="bottom">about</a></li>
+          <li><a href="#" rel="popover1">plop</a></li>
+          <li><a href="#" rel="popover2" data-content="Mais ou est passé ma putain de section TITLE !!!!!!">information</a></li>
+        </ul>
+        <ul class="nav pull-right">
+          <li class="dropdown">
+            <a href="#" data-toggle="dropdown" class="dropdown-toggle">Menu<span class="caret" style="border-top-color: white;"></span></a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="#">Item 1</a></li>
+              <li><a href="#">Item 2</a></li>
+              <li class="divider"></li>
+              <li><a href="#">Item 3</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div style="visibility: hidden;padding-bottom: 40px;"></div>
+
+
+
 <%= yield %>
 
 </body>
