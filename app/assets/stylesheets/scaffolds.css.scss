@@ -102,12 +102,17 @@ div {
   }
 }
 
-.main_content{
- // background-image: url('/assets/book_webstrat.jpg');
+.main_container{
+  background-image: url('/assets/halobc.jpeg');
+  background-size: auto;
   background-repeat: no-repeat;
+}
+
+.container_center{
+
   width: 900px;
-  min-height: 600px;
-  max-height: 1200px;
+  min-height: 1200px;
+  //max-height: 1200px;
   margin-right: auto;
   margin-left: auto;
 }
