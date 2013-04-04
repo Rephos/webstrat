@@ -17,6 +17,10 @@ html, body{
 
 }
 
+ul{
+    list-style-type: none;
+}
+
 #main_header{
     border-top: 0;
     min-height: 80px;
@@ -60,7 +64,24 @@ html, body{
 
 #container_center{
 
-    width: 900px;
+    min-width:600px;
+    width: 50%;
     margin-right: auto;
     margin-left: auto;
+}
+
+#container_left{
+    float: left;
+    padding-top: 5%;
+    width: 20%;
+}
+
+.tab_players li{
+    color: red;
+}
+.tab_players{
+    background-color: #000000;
+    border-radius: 20px;
+    width: 200px;
+    padding: 4px 12px;
 }
