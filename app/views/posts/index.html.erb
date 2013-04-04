@@ -5,16 +5,16 @@
     <br>
     <p><%= post.content %></p>
     <br>
-    <div style="background-color: #D7A82E;">
+    <div>
     <%= link_to 'Voir', post %>
     <%= link_to 'Editer', edit_post_path(post)  %>
     <%= link_to 'Supprimer', post, confirm: "Voulez vous vraiment le supprimer ?", method: :delete %>
     </div>
 <% end %>
 
-<div style="background-color: #D7A82E;"><%= will_paginate @posts %></div>
+<div><%= will_paginate @posts %></div>
 
 
 <br />
 
-<div style="background-color: #D7A82E;"><%= link_to 'New Post', new_post_path %>   </div>
+<div><%= link_to 'New Post', new_post_path %>   </div>

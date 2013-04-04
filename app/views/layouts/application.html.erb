@@ -8,15 +8,20 @@
 </head>
 <body>
 
-<div class="main_header">
-  <div class="main_header_container">
-    <h1>Magazine Book</h1>
+<div id="main_header">
+  <div id="main_header_container">
+    <h1><%= image_tag("titreLE.png") %></h1>
   </div>
 </div>
 
 
-<div class="main_container">
-    <div class="container_center">
+<div id="main_container">
+
+    <div id="container_left">
+
+    </div>
+
+    <div id="container_center">
     <%= yield %>
     </div>
 </div>

@@ -11,3 +11,56 @@
  *= require_self
  *= require_tree .
 */
+
+html, body{
+    height: 100%;
+
+}
+
+#main_header{
+    border-top: 0;
+    min-height: 80px;
+    background-color: #000000;
+
+
+}
+
+#main_header_container{
+    padding-top: 20px;
+    min-width: 400px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+        h1{
+            margin: 0;
+        }
+    }
+
+#main_container{
+//  background-image: url('/assets/halobc.jpeg');
+    height: 100%;
+    margin-top: -10px;
+    background-image: linear-gradient(bottom, rgb(82,21,21) 13%, rgb(117,28,28) 57%, rgb(161,50,50) 79%, rgb(168,59,59) 90%);
+    background-image: -o-linear-gradient(bottom, rgb(82,21,21) 13%, rgb(117,28,28) 57%, rgb(161,50,50) 79%, rgb(168,59,59) 90%);
+    background-image: -moz-linear-gradient(bottom, rgb(82,21,21) 13%, rgb(117,28,28) 57%, rgb(161,50,50) 79%, rgb(168,59,59) 90%);
+    background-image: -webkit-linear-gradient(bottom, rgb(82,21,21) 13%, rgb(117,28,28) 57%, rgb(161,50,50) 79%, rgb(168,59,59) 90%);
+    background-image: -ms-linear-gradient(bottom, rgb(82,21,21) 13%, rgb(117,28,28) 57%, rgb(161,50,50) 79%, rgb(168,59,59) 90%);
+
+    background-image: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0.13, rgb(82,21,21)),
+        color-stop(0.57, rgb(117,28,28)),
+        color-stop(0.79, rgb(161,50,50)),
+        color-stop(0.9, rgb(168,59,59))
+    );
+
+}
+
+#container_center{
+
+    width: 900px;
+    margin-right: auto;
+    margin-left: auto;
+}
